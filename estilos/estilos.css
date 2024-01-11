@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#dda15e;
+}
+
+a{
+    text-decoration: none;
+}
+
+.TituloArriba{
+    font-size: 100px;
+    background-color: rgba(0, 0, 0, 0.205);
+    display: flex;
+    border: inset;
+    justify-content: center;
+    overflow: auto;
+}
+
+.ListaMenu{
+    font-size: 30px;
+display: flex;
+justify-content: space-evenly;
+border: groove;
+}
+
+li{
+    list-style: none;
+    border: inset;
+}
+
+.tituloPrimeraPag{
+    text-align: center;
+    margin: 10px;
+    border: groove
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.ImagenProducto{
+    height: 250p;
+    border: double;
+    height: 10rem;
+}
+
+p{
+    text-align: center;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h4{
+    font-size: 30px;
+}
+
+.SubTitulo{
+    margin: 10px;
+}
+
+.LogoFacebook{
+    width: 5rem;
+    border-radius: 50%;
+    margin-left: 34rem;
+}
+
+.ComentarioRedSocial{
+margin-left: 400px;
+}
+
+.ImagenHerrero{
+    height: 50rem;
+    margin-left: 20rem;
+    border: outset 1rem gray;
+}
