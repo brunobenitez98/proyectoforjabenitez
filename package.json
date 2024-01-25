@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-coderhouse",
+  "version": "1.0.0",
+  "description": "este es mi primer proyecto del curso desarrollo web de la plataforma coderhouse ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunobenitez98/proyectoforjabenitez.git"
+  },
+  "author": "bruno benitez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunobenitez98/proyectoforjabenitez/issues"
+  },
+  "homepage": "https://github.com/brunobenitez98/proyectoforjabenitez#readme"
+}
