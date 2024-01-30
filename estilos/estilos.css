@@ -76,22 +76,27 @@ h4 {
     border: outset 1rem gray;
 }
 
-.PerfilFacebook{
+.PerfilFacebook {
     font-size: 50px;
 }
 
-.LinkParaSucursales{
+.LinkParaSucursales {
     margin: 25rem;
 }
 
-.Zona{
+.Zona {
     display: flex;
     justify-content: center
 }
 
-.Contacto{
+.Contacto {
     display: flex;
     justify-content: space-evenly;
+}
+
+iframe {
+    margin-left: 22rem;
+    
 }
 
 @media (max-width:378px) {
@@ -117,20 +122,43 @@ h4 {
 
     }
 
-    .LinkParaSucursales{
-    margin: 20%;
+    .LinkParaSucursales {
+        margin: 20%;
     }
+
+    .ImagenHerrero {
+        margin-left: 10px;
+        width: 350px;
+        height: 25rem;
+    }
+
+    .MobileMapas {
+        width: 360px;
+        margin-left: 9px;
+    }
+
+    
+.Contacto {
+display: flex;
+flex-direction:column;
+}
 }
 
-.Mapa{
-    display:grid;
-    grid-template-columns:1fr 1fr 1fr;
+/* .
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
 }
-.FilaSucursal1{
-grid-column: 1/3;
+
+.FilaSucursal1 {
+    grid-column: 1/3;
 }
 
-.FilaSucursal{
-grid-column: 1/3;
-}
+.FilaSucursal {
+    grid-column: 1/3;
+} */
+
+/* iframe {
+    margin-left: 22rem;
+    
+} */
