@@ -5,8 +5,8 @@
 }
 
 body {
-    background-color: #dda15e;
-}
+    background-color:#E9B872}
+
 
 a {
     text-decoration: none;
@@ -14,11 +14,15 @@ a {
 
 .TituloArriba {
     font-size: 100px;
-    background-color: rgba(0, 0, 0, 0.205);
+    background-color: rgba(0, 0, 0, 0.205); 
+    background: linear-gradient(to top, #E9B872,white);
     display: flex;
     border: inset;
     justify-content: center;
     overflow: auto;
+}
+.TituloArriba:hover{
+    transform: scale(1.1,1.1);
 }
 
 .ListaMenu {
@@ -50,7 +54,13 @@ h2 {
 .ImagenProducto {
     border: double;
     height: 10rem;
+    transition:  1s;
 }
+
+    img:hover{
+        transform: scale(1.2,1.2);
+    }
+
 
 p {
     text-align: center;
